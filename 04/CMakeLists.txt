@@ -4,7 +4,7 @@ project(assignment_04)
 
 INCLUDE(FindPkgConfig)
 
-# Krever GTKMM 3.0 installert
+# Øvingen krever GTKMM 3.0
 pkg_check_modules(GTKMM gtkmm-3.0 REQUIRED)
 include_directories(${GTKMM_INCLUDE_DIRS})
 link_directories(${GTKMM_LIBRARY_DIRS})

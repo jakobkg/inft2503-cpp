@@ -4,4 +4,5 @@ project(assignment_05)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++1y -Wall -Wextra")
 
+# Hele øvingen er et sjakkprogram
 add_executable(chess chess.cpp)
